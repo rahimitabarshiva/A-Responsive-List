@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: pink;
+    width: 100%;
+    height: auto;
+    >.row1{
+        width: 100%;
+        height: 100px;
+        border: 1px solid black;
+        background-color: tomato;
+        >ul{
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            >li{
+                list-style-type: none;
+                width: 100%;
+                height: 25px;
+                border: 1px solid pink;
+                &:nth-of-type(5){
+                    display: none;
+                }
+                &:nth-of-type(6){
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+
